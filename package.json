@@ -13,8 +13,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "type-check": "tsc --noEmit",
-    "gh-pages": "gh-pages -d build",
-    "deploy": "npm run build && npm run gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
