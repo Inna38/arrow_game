@@ -2,7 +2,7 @@ import { defineConfig } from "vitest/config"
 import react from "@vitejs/plugin-react"
 
 export default defineConfig({
-  base: "/arrow-game/",
+  base: "/arrow_game/",
   plugins: [react()],
   server: {
     open: true,
