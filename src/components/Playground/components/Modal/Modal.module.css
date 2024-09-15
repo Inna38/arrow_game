@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.modal {
+  width: 300px;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--spacing-large);
+  outline: none;
+}
+
+.modalSuccess {
+  border: 1px solid var(--color-green);
+  background-color: var(--color-green-light);
+}
+
+.modalUnsuccess {
+  border: 1px solid var(--color-red-light);
+  background-color: var(--color-red-lighter);
+}
+
+.modal_text_container {
+  margin-bottom: 30px;
+}
+
+.modal_text {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
